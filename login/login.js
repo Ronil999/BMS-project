@@ -7,7 +7,7 @@ class password{
         if(user == this.uname && pass == this.passwd){
             // document.getElementById("err").innerHTML = "Successfully Login";
             // console.log("login");
-            window.location.href = '/admin/admin.html';
+            window.location.href = 'BMS-project/admin/admin.html';
         }
         else{
             document.getElementById("err").innerHTML = "Wrong Password!  Try again!!";
